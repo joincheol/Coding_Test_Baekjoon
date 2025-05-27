@@ -1,10 +1,7 @@
-import sys
-
-N,X = map(int, sys.stdin.readline().split())
+N,X = map(int, input().split())
 numbers = []
 
-for i in range(N):
-    numbers += list(map(int, sys.stdin.readline().split()))
+numbers += list(map(int, input().split()))
 
 for j in numbers:
     if(j < X):
